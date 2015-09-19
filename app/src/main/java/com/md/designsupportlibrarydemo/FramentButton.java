@@ -21,6 +21,7 @@ public class FramentButton  extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        System.out.println("22222222222222");
         return inflater.inflate(R.layout.frament_btn_edit, container, false);
     }
 }

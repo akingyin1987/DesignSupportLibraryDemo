@@ -17,7 +17,23 @@
 
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
-        <!-- 窗口的背景颜色 -->
-        <item name="android:windowBackground">@color/window_background</item>
+
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!-- 溢出菜单文字颜色-->
+        <item name="textAppearanceLargePopupMenu">@style/OverflowMenuTextAppearance</item>
+
+    </style>
+
+
+    <!-- 左边的箭头指示-->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <!--溢出菜单文字样式-->
+    <style name="OverflowMenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/overflowTextColor</item>
     </style>
 </resources>
