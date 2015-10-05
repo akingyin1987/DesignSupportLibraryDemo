@@ -9,4 +9,15 @@
         android:layout_height="wrap_content"
         android:text="222222222222"/>
 
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="22222"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tablayout"
+        android:text="TabLayout"/>
 </LinearLayout>
