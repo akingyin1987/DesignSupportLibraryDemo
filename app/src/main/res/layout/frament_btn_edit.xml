@@ -20,4 +20,21 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_tablayout"
         android:text="TabLayout"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <NumberPicker
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/np_one"></NumberPicker>
+        <NumberPicker
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/np_tow"></NumberPicker>
+    </LinearLayout>
+
 </LinearLayout>
